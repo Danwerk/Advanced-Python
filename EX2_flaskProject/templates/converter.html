@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinates Converter</title>
+    <style>
+        .container {
+            max-width: 500px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align: center;color: green;"><u>Coordinates Converter</u></h1>
+    <form action="/" method="POST" id="myform">
+        <h2>From :</h2>
+        <input type="text" placeholder="Enter Latitude" name="latitude" value="{{ latitude }}">
+        <input type="text" placeholder="Enter Longitude" name="longitude" value="{{ longitude }}">
+        <select required name="from_c" id="from_c">
+            <option value="">Choose Conversion</option>
+            <option value="wgs"{% if from_c == 'wgs' %} selected {% endif %}>WGS84</option>
+            <option value="est" {% if from_c == 'est' %} selected {% endif %}>L-Est97</option>
+
+        </select>
+        <h2>To :</h2>
+        <select required name="to_c" id="to_c">
+            <option value="">Choose Conversion</option>
+
+            <option value="wgs" {% if to_c == 'wgs' %} selected {% endif %}>WGS84</option>
+            <option value="est" {% if to_c == 'est' %} selected {% endif %}>L-Est97</option>
+
+        </select>
+        <h2 style="text-align: center;"><input type="submit" style="width: 60px;height: 30px;" value="Convert"></h2>
+    </form>
+        {% if result %}
+        <h4 style="color: red; text-align: center;">Coordinates XY{{result}}</h4>
+        {% endif %}
+</div>
+</body>
+</html>
