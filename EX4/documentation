@@ -1,0 +1,23 @@
+EX4 documentation
+
+## Scrapy
+Python spider for finding all laptops in 1a.ee store.
+Spider is written with scrapy library.
+This can be installed with pip command:
+
+- pip install scrapy
+
+
+Spider finds laptop name, price and picture.
+To run this spider and collect data to data1.json file use commandline.
+
+- scrapy runspider scrapy_scraper.py -o data.json
+
+
+## BeautifulSoap
+This can be installed with pip command:
+
+- pip install beautifulsoup4
+
+To run this spider and collect data to data2.json file run parse method in __main__:
+parse(start_url)

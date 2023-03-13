@@ -1,0 +1,35 @@
+Homework 2 in Advanced Python
+
+Databases and Python
+
+The code is locate in src.database.
+    db = Db() - creates new instance of Db class and also sets the location for database DINER.db, which takes place in
+                database directory
+
+
+    - To create CANTEEN table, call method create_canteen_table() from instantiated Db class
+
+    - To create PROVIDER table, call method create_provider_table() from instantiated Db class
+
+    - To insert necessary information in CANTEEN and PROVIDER tables, call db.create_records()
+
+    - To get canteens which are open 16.15-18.00, call db.get_canteens_open_between_four_fifteen_and_six()
+
+    - To get canteens which are serviced by Rahva Toit, call db.get_canteens_serviced_by_rahva_toit()
+
+
+
+SqlAlchemy
+To open the connection with the database, use:
+
+engine = create_engine('sqlite:///../database/DINERS2.db', echo=True)
+
+    - To create tables CANTEEN and PROVIDER, call create_tables() method, which creates tables from base.
+
+    - To insert Itcollege canteen information in db, call add_it_college()
+
+    - To insert other canteens and providers, call add_other_providers_and_canteens()
+
+    - To get canteens which are open 16.15-18.00, call get_canteens_open_between_four_fifteen_and_six()
+
+    - To get canteens which are serviced by Rahva Toit, call get_canteens_serviced_by_rahva_toit()
