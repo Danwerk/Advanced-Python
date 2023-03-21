@@ -5,7 +5,7 @@ IDE Pycharm
 
 python3 version: 3.6
 
-//-------------------------MAIN PROGRAM---------------------------\\
+# MAIN PROGRAM
 L-Est97 to WGS84 and WGS84 TO L-Est978 coordinates converter
 
 Converting code is located in coordinates.main file.
@@ -25,7 +25,7 @@ To run this conversion program as Tkinter program, just run method
 converter_ui() in coordinates.main
 
 
-//-----------------------------TESTS-------------------------------\\
+# TESTS
 Test code is located in tests.test_convertings file.
 
 Tests are written in pytest and for running tests, pytest is needed.
@@ -36,4 +36,3 @@ pip install pytest
 To execute test suite:
 python -m pytest tests/
 
-//------------------------------END--------------------------------\\
