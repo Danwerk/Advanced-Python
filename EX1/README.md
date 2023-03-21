@@ -31,8 +31,8 @@ Test code is located in tests.test_convertings file.
 Tests are written in pytest and for running tests, pytest is needed.
 
 To install pytest run:
-pip install pytest
+```pip install pytest```
 
 To execute test suite:
-python -m pytest tests/
+```python -m pytest tests/```
 
