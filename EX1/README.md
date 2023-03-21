@@ -19,7 +19,7 @@ To run this conversion program in WEB, download flaskProject and run app.py.
 It uses installed module for converting coordinates, so before using, you should
 make sure, that necessary module is installed.
 
-Use: pip install -i https://test.pypi.org/simple/ example-package-dakurb
+Use: ```pip install -i https://test.pypi.org/simple/ example-package-dakurb```
 
 To run this conversion program as Tkinter program, just run method
 converter_ui() in coordinates.main
