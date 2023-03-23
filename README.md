@@ -38,4 +38,5 @@ https://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/otselennud20.csv
 Direct flights from Tallinn in February 2023:
 https://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/otselennud23.csv
 
+The result is saved in EX3 directory as map.png file.
 # EX4
