@@ -27,5 +27,15 @@ Table Provider fields: ID, ProviderName.
 
 B) Used SqlAlchemy to do same steps again
 # EX3
+The task is to draw the direct flights departing from Tallinn Airport in the pre-corona period and now on the map of Europe. The OpenFlights Airports Database https://openflights.org/data.html has more than 14,000 airports all over the world, but regular flights from Tallinn take place to only a few dozen.
+
+Airports data with geographic coordinates:
+http://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/airports.dat
+
+Pre-corona direct flights from Tallinn:
+https://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/otselennud20.csv
+
+Direct flights from Tallinn in February 2023:
+https://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/otselennud23.csv
 
 # EX4
