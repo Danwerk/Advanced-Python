@@ -10,6 +10,7 @@ Simple Flask webpage which uses installed module for converting coordinates. The
 
 # EX2
 Databases and Python
+
 Used plain SQL language to:
 
 1) Created SQLite database DINERS, with two related tables CANTEEN and PROVIDER
