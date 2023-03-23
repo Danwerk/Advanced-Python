@@ -40,3 +40,7 @@ https://enos.itcollege.ee/~eikivi/python/kaug6pe/Koduylesanne3/otselennud23.csv
 
 The result is saved in EX3 directory as map.png file.
 # EX4
+Create a simple 'web spider' for the page of a freely chosen online store
+There should be at least 400 objects and 6 subpages in the selection. Comb through all items on all subpages (1 to ...) and create a JSON file with the following attributes: {Title: '', Price: '', Picture href: ''}
+
+The work is done in two versions, by using the Scrapy library, the other uses the Beautiful Soup library.
